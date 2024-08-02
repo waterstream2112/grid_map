@@ -22,6 +22,7 @@ namespace gm = ::grid_map::grid_map_pcl;
 
 int main(int argc, char ** argv)
 {
+  
   rclcpp::init(argc, argv);
   auto node = std::make_shared<rclcpp::Node>("grid_map_pcl_loader_node");
   gm::setVerbosityLevelToDebugIfFlagSet(node);
